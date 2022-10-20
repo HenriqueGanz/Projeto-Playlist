@@ -1,0 +1,128 @@
+body {
+    max-width: 480px;
+    background-color: #29024d;
+    font-family: 'Archivo', sans-serif;
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+.page {
+    text-align:center;
+    margin: 10px 20px 0;
+    background-color: rgb(39, 1, 54);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1, h2 {
+    color:white;
+}
+
+span {
+    font-weight: bold;
+    color: #815ca3;
+    font-style: oblique;
+}
+
+.spotifytext {
+    color: rgb(93, 216, 93);
+}
+
+#imgalbum {
+    width:60%;
+    border: 10px solid #4f036dda;
+    border-radius: 5%;
+}
+
+#spotifylogo {
+    width: 180px;
+}
+
+
+button {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width: 250px;
+    height: 80px;
+    background-color:#0b4619;
+    border: 2px solid #03721e;
+    border-radius: 8px;
+    margin: 20px auto;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color:#063f14;
+    transform: scale(1.1);
+}
+
+.play {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-right: 30px;
+}
+
+p {
+    color:white;
+}
+
+.finalidade {
+    font-family:'Open sans', sans-serif;
+}
+
+.section2 {
+    margin: 50px 50px 0;
+}
+
+.footerline {
+    margin-top: 30px;
+    border-top: 2px solid #815ca3;;
+}
+
+footer {
+    margin: 30px auto 30px;;
+}
+
+
+ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+}
+
+li  {
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    list-style:none;
+    justify-content: center;
+    align-items: center;
+}
+
+ul img {
+    padding: 0;
+    max-width: 60px;
+}
+
+.tiktokbutton {
+border: none;
+background: none;
+padding: 0;
+margin: 0;
+}
+
+.tiktokbutton:hover {
+    transform: scale(1.1);
+    background: none;
+}
